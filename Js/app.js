@@ -119,7 +119,7 @@ const printFooter = () => {
     footer.innerHTML = ""
     if(Object.keys(cart).length === 0){
         footer.innerHTML = `
-		<th scope="row" colspan="5">Shoping Cart Empty - start buying!</th>` 
+		<th scope="row" colspan="5">Carrito vacio - Elija sus productos</th>` 
 		
 		return
 
